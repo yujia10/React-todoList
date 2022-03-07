@@ -1,0 +1,55 @@
+/*base*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@100;400;900&family=Source+Sans+Pro:wght@200;300;400&family=Ubuntu&display=swap');
+
+body {
+    background-color: #F6E6E4;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: hsl(198, 1%, 29%);
+    font-family: "Architects Daughter", cursive;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-family: "Architects Daughter", cursive;
+    /* padding: 4px 12px; */
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid #E1F2FB;
+  }
+  
+  .btn-danger {
+    color: hsl(198, 1%, 29%);
+    background-color: #E1F2FB;
+  } 
+  
+  .btn-danger:hover {
+    color: hsl(198, 1%, 29%);
+    background-color: #F1F9F9;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .todo-container {
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040; 
+    background: #f1f5f8; 
+    padding: 20px;
+  }
+  .todo-container .todo-wrap {
+    padding: 30px;
+  }
+  
+  
+  
+  
+  
